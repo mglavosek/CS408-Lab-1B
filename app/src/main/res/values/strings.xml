@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab 1B</string>
+    <string name="welcome_to_rock_paper_scissors">Welcome to Rock-Paper-Scissors!</string>
+    <string name="please_choose_your_weapon">Please choose your weapon:</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+</resources>
