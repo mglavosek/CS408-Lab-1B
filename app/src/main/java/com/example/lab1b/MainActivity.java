@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 playGame(Weapon.ROCK);
-                String playerText = "Player's Weapon: " + Weapon.ROCK;
-                binding.playerChoice.setText(playerText);
             }
         });
 
@@ -30,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 playGame(Weapon.PAPER);
-                String playerText = "Player's Weapon: " + Weapon.PAPER;
-                binding.playerChoice.setText(playerText);
             }
         });
 
@@ -39,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 playGame(Weapon.SCISSORS);
-                String playerText = "Player's Weapon: " + Weapon.SCISSORS;
-                binding.playerChoice.setText(playerText);
             }
         });
 

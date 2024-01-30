@@ -5,8 +5,8 @@
     <string name="rock">Rock</string>
     <string name="paper">Paper</string>
     <string name="scissors">Scissors</string>
-    <string name="player_weapon" >Players Weapon: %1$s</string>
-    <string name="computer_weapon" >Computers Weapon: %1$s</string>
+    <string name="player_weapon" >Player\'s Weapon: %1$s</string>
+    <string name="computer_weapon" >Computer\'s Weapon: %1$s</string>
     <string name="player_score">Player: %d</string>
     <string name="opponent_score">Computer: %d</string>
     <string name="draw_message">It was a Draw!</string>
