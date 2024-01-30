@@ -1,8 +1,18 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Lab 1B</string>
     <string name="welcome_to_rock_paper_scissors">Welcome to Rock-Paper-Scissors!</string>
     <string name="please_choose_your_weapon">Please choose your weapon:</string>
     <string name="rock">Rock</string>
     <string name="paper">Paper</string>
     <string name="scissors">Scissors</string>
+    <string name="player_weapon" >Players Weapon: %1$s</string>
+    <string name="computer_weapon" >Computers Weapon: %1$s</string>
+    <string name="player_score">Player: %d</string>
+    <string name="opponent_score">Computer: %d</string>
+    <string name="draw_message">It was a Draw!</string>
+    <string name="rock_beats_scissors">%1$s wins: %2$s beats %3$s!</string>
+    <string name="paper_covers_rock">%1$s wins: %2$s covers %3$s!</string>
+    <string name="scissors_cut_paper">%1$s wins: %2$s cuts %3$s!</string>
+    <string name="default_win_message">%1$s wins!</string>
+
 </resources>

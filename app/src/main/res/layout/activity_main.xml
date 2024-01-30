@@ -34,18 +34,45 @@
             android:id="@+id/rockButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rock" />
+            android:text="@string/rock"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/paperButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/paper" />
+            android:text="@string/paper"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/scissorButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/scissors" />
+            android:text="@string/scissors"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/playerChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/computerChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/resultMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
